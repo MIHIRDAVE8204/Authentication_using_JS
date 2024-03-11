@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Login Form | CodingStella </title>
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="login_box">
+    <div class="login-header">
+      <span>Sign up</span>
+    </div>
+
+    <div class="input_box">
+      <input type="text" id="user" placeholder="Username" class="input-field" required>
+      <i class="bx bx-user icon"></i>
+    </div>
+
+    <div class="input_box">
+      <input type="password" id="pass" placeholder="Password" class="input-field" required>
+      
+      <i class="bx bx-lock-alt icon"></i>
+    </div>
+    <div class="input-box">
+      <select name="role" id="role">
+        <option value="admin">Admin</option>
+        <option value="moderator">Moderator</option>
+        <option value="user">User</option>
+      </select>
+    </div>
+
+    <div class="remember-forgot">
+      <div class="remember-me">
+        
+        <label style="color: rgba(57, 58, 57, 0.733);" id="massage"></label>
+      </div>
+
+      <div class="forgot">
+        <a href="#"></a>
+      </div>
+    </div>
+
+    <div class="input_box">
+      <input type="submit" onclick="databank()" class="input-submit" value="register">
+    </div>
+
+    <div class="register">
+      <span>Have an account Than Try <a href="login.html">Login</a></span>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src="index.js"></script>
+</body>
+</html>
